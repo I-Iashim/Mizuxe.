@@ -75,14 +75,7 @@ nav h4{
     color: #000;
     cursor: pointer;
 }
-.bars-container{
-    height: calc(108px - 48px);
-    display: flex;
-    width: 100%;
-    background-color: white;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 @keyframes animation {
     from{
@@ -98,8 +91,14 @@ nav h4{
         padding-top: 0;
     }
     .bars-container{
-        padding-top: 24px;
-    }
+    height: calc(108px - 48px);
+    display: flex;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
     .container {
         padding: 0;
         max-width: 540px;

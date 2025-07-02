@@ -6,18 +6,24 @@
     <title>Mizuxe</title>
     <link rel="shortcut icon" href="img/mlogo.png" type="image/x-icon" />
     <link rel="stylesheet" href="Css/style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
     <header>
       <nav>
         <div class="container">
-            <div class="bars-container">
-          <a class="brand-logo">
-            <img src="img/mlogo.png" alt="" />
-            <h4>Mizuxe</h4>
-          </a>
-          <button class="nav-toggle" onclick="toggleNav()"><span>☰</span></button>
+          <div class="bars-container">
+            <a class="brand-logo">
+              <img src="img/mlogo.png" alt="" />
+              <h4>Mizuxe</h4>
+            </a>
+            <button class="nav-toggle" onclick="toggleNav()">
+              <span>☰</span>
+            </button>
           </div>
           <div class="nav-buttons">
             <ul>
@@ -31,7 +37,30 @@
         </div>
       </nav>
     </header>
+    <main>
+      <section class="section-1">
+        <div class="overlay">
+          <div class="container row">
+            <div class="section-1-info">
+              <h3>Do What You Dream Off</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.Delectus, at.
+              </p>
+              <button class="read-more-btn"><a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a></button>
+            </div>
+            <div class="section-1-info img-div">
+              <img src="img/book.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
+  <script
+    src="https://kit.fontawesome.com/91f1d83e7d.js"
+    crossorigin="anonymous"
+  ></script>
   <script>
     function toggleNav() {
       document.querySelector(".nav-buttons").classList.toggle("active");
